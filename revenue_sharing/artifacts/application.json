@@ -1,0 +1,74 @@
+{
+    "hints": {
+        "create()void": {
+            "call_config": {
+                "no_op": "CREATE"
+            }
+        },
+        "get_addresses()(address,address)": {
+            "read_only": true,
+            "call_config": {
+                "no_op": "CALL"
+            }
+        }
+    },
+    "source": {
+        "approval": "I3ByYWdtYSB2ZXJzaW9uIDgKaW50Y2Jsb2NrIDAgMSAzMgpieXRlY2Jsb2NrIDB4IDB4NjM3MjY1NjE3NDZmNzI1ZjYxNjQ2NDcyNjU3MzczIDB4NzA2YzYxNzQ2NjZmNzI2ZDVmNjE2NDY0NzI2NTczNzMKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHg0YzVjNjFiYSAvLyAiY3JlYXRlKCl2b2lkIgo9PQpibnogbWFpbl9sNAp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweDZiOTA0ZTM1IC8vICJnZXRfYWRkcmVzc2VzKCkoYWRkcmVzcyxhZGRyZXNzKSIKPT0KYm56IG1haW5fbDMKZXJyCm1haW5fbDM6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgZ2V0YWRkcmVzc2VzY2FzdGVyXzMKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDQ6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KJiYKYXNzZXJ0CmNhbGxzdWIgY3JlYXRlY2FzdGVyXzIKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBjcmVhdGUKY3JlYXRlXzA6CnByb3RvIDAgMApieXRlY18xIC8vICJjcmVhdG9yX2FkZHJlc3MiCnR4biBTZW5kZXIKYXBwX2dsb2JhbF9wdXQKYnl0ZWNfMiAvLyAicGxhdGZvcm1fYWRkcmVzcyIKZ2xvYmFsIENyZWF0b3JBZGRyZXNzCmFwcF9nbG9iYWxfcHV0CnJldHN1YgoKLy8gZ2V0X2FkZHJlc3NlcwpnZXRhZGRyZXNzZXNfMToKcHJvdG8gMCAxCmJ5dGVjXzAgLy8gIiIKZHVwbiAyCmludGNfMCAvLyAwCmR1cApieXRlY18wIC8vICIiCmR1cApieXRlY18xIC8vICJjcmVhdG9yX2FkZHJlc3MiCmFwcF9nbG9iYWxfZ2V0CmZyYW1lX2J1cnkgMQpmcmFtZV9kaWcgMQpsZW4KaW50Y18yIC8vIDMyCj09CmFzc2VydApieXRlY18yIC8vICJwbGF0Zm9ybV9hZGRyZXNzIgphcHBfZ2xvYmFsX2dldApmcmFtZV9idXJ5IDIKZnJhbWVfZGlnIDIKbGVuCmludGNfMiAvLyAzMgo9PQphc3NlcnQKZnJhbWVfZGlnIDEKZnJhbWVfZGlnIDIKY29uY2F0CmZyYW1lX2J1cnkgMApyZXRzdWIKCi8vIGNyZWF0ZV9jYXN0ZXIKY3JlYXRlY2FzdGVyXzI6CnByb3RvIDAgMApjYWxsc3ViIGNyZWF0ZV8wCnJldHN1YgoKLy8gZ2V0X2FkZHJlc3Nlc19jYXN0ZXIKZ2V0YWRkcmVzc2VzY2FzdGVyXzM6CnByb3RvIDAgMApieXRlY18wIC8vICIiCmNhbGxzdWIgZ2V0YWRkcmVzc2VzXzEKZnJhbWVfYnVyeSAwCnB1c2hieXRlcyAweDE1MWY3Yzc1IC8vIDB4MTUxZjdjNzUKZnJhbWVfZGlnIDAKY29uY2F0CmxvZwpyZXRzdWI=",
+        "clear": "I3ByYWdtYSB2ZXJzaW9uIDgKcHVzaGludCAwIC8vIDAKcmV0dXJu"
+    },
+    "state": {
+        "global": {
+            "num_byte_slices": 2,
+            "num_uints": 0
+        },
+        "local": {
+            "num_byte_slices": 0,
+            "num_uints": 0
+        }
+    },
+    "schema": {
+        "global": {
+            "declared": {
+                "creator_address": {
+                    "type": "bytes",
+                    "key": "creator_address",
+                    "descr": "Address of the content creator"
+                },
+                "platform_address": {
+                    "type": "bytes",
+                    "key": "platform_address",
+                    "descr": "Address of the platform"
+                }
+            },
+            "reserved": {}
+        },
+        "local": {
+            "declared": {},
+            "reserved": {}
+        }
+    },
+    "contract": {
+        "name": "RevenueSharingApp",
+        "methods": [
+            {
+                "name": "create",
+                "args": [],
+                "returns": {
+                    "type": "void"
+                },
+                "desc": "Initializes the contract's global state."
+            },
+            {
+                "name": "get_addresses",
+                "args": [],
+                "returns": {
+                    "type": "(address,address)"
+                },
+                "desc": "Returns the creator and platform addresses."
+            }
+        ],
+        "networks": {},
+        "desc": "Smart contract for revenue sharing"
+    },
+    "bare_call_config": {}
+}

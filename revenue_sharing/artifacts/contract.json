@@ -1,0 +1,23 @@
+{
+    "name": "RevenueSharingApp",
+    "methods": [
+        {
+            "name": "create",
+            "args": [],
+            "returns": {
+                "type": "void"
+            },
+            "desc": "Initializes the contract's global state."
+        },
+        {
+            "name": "get_addresses",
+            "args": [],
+            "returns": {
+                "type": "(address,address)"
+            },
+            "desc": "Returns the creator and platform addresses."
+        }
+    ],
+    "networks": {},
+    "desc": "Smart contract for revenue sharing"
+}
