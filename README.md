@@ -20,8 +20,6 @@ Upload educational content and manage courses.
 Browse courses, purchase using Algo coins, and access certificates after completion.
 
  ### Smart Contract Automation
--Implements PyTeal and Beaker to automate:
-NFT creation for certificates and content.
 
 -Revenue sharing for course purchases.
 
